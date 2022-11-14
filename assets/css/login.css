@@ -1,0 +1,71 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: #252525;
+  font-family: 'Poppins', sans-serif;
+}
+.login-box{
+  width: 350px; 
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.login-box h1{
+  float: left;
+  font-size:50px;
+  border-bottom: 5px solid;
+  margin-bottom: 35px;
+  border-image: linear-gradient(to right, #16db93 40%, transparent 40%) 100% 1;
+  padding: 3px 0;
+}
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 18px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #16db93;
+}
+.textbox i{
+  width: 30px;
+  float: left;
+  text-align: center;
+}
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 18px;
+  width: 50%;
+  float: left;
+  margin: 0 10px;
+}
+
+.btn{
+  width: 100%;
+  background: none;
+  border: 2px solid #16db93;
+  padding: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 22px 0;
+  border-radius: 8px;
+
+}
+.btn:hover{
+  background-color:#16db93;
+}
+#text{
+  padding-left: 45px;
+}
+.signup{
+  padding-left: 3px;
+  color: #16db93;
+  font-size: 18px;
+  text-decoration: underline;
+  font-weight: bolder;
+}
